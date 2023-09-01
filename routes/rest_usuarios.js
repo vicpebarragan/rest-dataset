@@ -7,11 +7,11 @@ const Usuario = require('../models').usuario;
 router.get('/findAll/json', function (req, res, next) {
 
 
-    const { rol } = req.user;
+    /*const { rol } = req.user;
 
     if (rol !== 'admin') {
         return res.sendStatus(403);
-    }
+    }*/
 
     /* MÉTODO ESTÁTICO findAll  */
 
